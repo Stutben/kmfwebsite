@@ -10,7 +10,17 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="site-header"><a class="brand" href="index.html">KMF <span>2027</span></a></header>
+<header class="site-header" id="top">
+  <a class="brand" href="index.html">KMF <span>2027</span></a>
+  <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  <nav id="nav">
+    <a href="index.html">Start</a>
+    <a href="programm.html">Programm</a>
+    <a href="wertungsspiele.html">Wertungsspiele</a>
+    <a href="anfahrt.html">Anfahrt</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
 <main class="section" style="padding-top:120px">
   <div class="wrap legal">
     <h2>Impressum</h2>
@@ -39,5 +49,13 @@
     <p><a href="datenschutz.html">Datenschutzerklärung</a> · <a href="index.html">Zurück zur Startseite</a></p>
   </div>
 </main>
+<footer>
+  <div class="wrap">
+    <span>© 2027 Musikverein Zimmern u.d.B.</span>
+    <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

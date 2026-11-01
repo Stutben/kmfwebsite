@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kreisverbandsmusikfest 2027 – Zimmern unter der Burg</title>
-  <meta name="description" content="Kreisverbandsmusikfest 2027 im Zollernalbkreis – ausgerichtet vom Musikverein Zimmern u.d.B. Programm, Anfahrt und Infos.">
+  <meta name="description" content="Kreisverbandsmusikfest 2027 im Zollernalbkreis – ausgerichtet vom Musikverein Zimmern u.d.B.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,14 +13,14 @@
 <body>
 
 <header class="site-header" id="top">
-  <a class="brand" href="#top">KMF <span>2027</span></a>
+  <a class="brand" href="index.html">KMF <span>2027</span></a>
   <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
   <nav id="nav">
-    <a href="#fest">Das Fest</a>
-    <a href="#programm">Programm</a>
-    <a href="#anfahrt">Anfahrt</a>
-    <a href="#partner">Partner</a>
-    <a href="#kontakt">Kontakt</a>
+    <a href="index.html" aria-current="page">Start</a>
+    <a href="programm.html">Programm</a>
+    <a href="wertungsspiele.html">Wertungsspiele</a>
+    <a href="anfahrt.html">Anfahrt</a>
+    <a href="kontakt.html">Kontakt</a>
   </nav>
 </header>
 
@@ -36,7 +36,7 @@
         <div><b id="cd-m">–</b><small>Min</small></div>
         <div><b id="cd-s">–</b><small>Sek</small></div>
       </div>
-      <a class="btn" href="#programm">Zum Programm</a>
+      <a class="btn" href="programm.html">Zum Programm</a>
     </div>
   </section>
 
@@ -54,56 +54,18 @@
     </div>
   </section>
 
-  <section id="programm" class="section alt">
-    <div class="wrap">
-      <h2>Festprogramm</h2>
-      <p class="note">Vorläufiges Programm – Änderungen vorbehalten.</p>
-      <div class="tabs" role="tablist">
-        <button role="tab" aria-selected="true" data-day="d1">Fr, 2. Juli</button>
-        <button role="tab" aria-selected="false" data-day="d2">Sa, 3. Juli</button>
-        <button role="tab" aria-selected="false" data-day="d3">So, 4. Juli</button>
-      </div>
-      <div class="day" id="d1">
-        <article><time>18:00</time><div><h3>Fassanstich &amp; Eröffnung</h3><p>Offizieller Start im Festzelt.</p></div></article>
-        <article><time>20:00</time><div><h3>Party-Abend</h3><p>Live-Band im Festzelt.</p></div></article>
-      </div>
-      <div class="day" id="d2" hidden>
-        <article><time>14:00</time><div><h3>Wertungsspiele</h3><p>Die Kapellen des Kreisverbands stellen sich vor.</p></div></article>
-        <article><time>20:00</time><div><h3>Festabend</h3><p>Musik und Unterhaltung.</p></div></article>
-      </div>
-      <div class="day" id="d3" hidden>
-        <article><time>10:00</time><div><h3>Festgottesdienst &amp; Frühschoppen</h3><p>Mit Blasmusik zum Mittagstisch.</p></div></article>
-        <article><time>14:00</time><div><h3>Festumzug</h3><p>Alle Vereine ziehen durch den Ort.</p></div></article>
-        <article><time>16:00</time><div><h3>Gemeinsames Konzert</h3><p>Die Kapellen im Festzelt.</p></div></article>
-      </div>
+  <section class="section alt">
+    <div class="wrap cards three">
+      <a class="card link" href="programm.html"><h3>Programm</h3><p>Alle Veranstaltungen von Freitag bis Sonntag im Überblick.</p></a>
+      <a class="card link" href="wertungsspiele.html"><h3>Wertungsspiele</h3><p>Die Kapellen stellen sich der Jury – Infos zu Ablauf und Zeitplan.</p></a>
+      <a class="card link" href="anfahrt.html"><h3>Anfahrt</h3><p>So finden Sie zum Festplatz an der Gemeindehalle.</p></a>
     </div>
   </section>
 
-  <section id="anfahrt" class="section">
-    <div class="wrap two-col">
-      <div>
-        <h2>Anfahrt &amp; Festplatz</h2>
-        <p>Gemeindehalle (Parkplatz)<br>Winkelstraße 21/1<br>72369 Zimmern unter der Burg</p>
-        <p>Parkplätze werden rechtzeitig vor dem Fest hier bekanntgegeben.</p>
-        <a class="btn ghost" href="https://www.openstreetmap.org/search?query=Winkelstra%C3%9Fe%2021%2F1%2C%2072369%20Zimmern%20unter%20der%20Burg" target="_blank" rel="noopener">Karte öffnen</a>
-      </div>
-      <iframe class="map" title="Karte Zimmern unter der Burg" loading="lazy"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=8.7068%2C48.2168%2C8.7228%2C48.2248&amp;layer=mapnik&amp;marker=48.22083%2C8.71483"></iframe>
-    </div>
-  </section>
-
-  <section id="partner" class="section alt">
+  <section id="partner" class="section">
     <div class="wrap cards">
-      <div class="card"><h3>Sponsoren &amp; Partner</h3><p>Unterstützen Sie das Fest und präsentieren Sie Ihr Unternehmen.</p></div>
+      <div class="card"><h3>Sponsoren &amp; Partner</h3><p>Unterstützen Sie das Fest und präsentieren Sie Ihr Unternehmen. <a href="kontakt.html">Sprechen Sie uns an.</a></p></div>
       <div class="card"><h3>Eingeladene Kapellen</h3><p>Die teilnehmenden Kapellen werden vom Musikverein eingeladen und hier rechtzeitig bekanntgegeben.</p></div>
-    </div>
-  </section>
-
-  <section id="kontakt" class="section">
-    <div class="wrap">
-      <h2>Kontakt</h2>
-      <p>Musikverein Zimmern u.d.B.<br><!-- TODO --><a href="mailto:info@mv-zimmern.de">info@mv-zimmern.de</a></p>
-      <p><a href="https://www.mv-zimmern.de/" target="_blank" rel="noopener">www.mv-zimmern.de</a></p>
     </div>
   </section>
 </main>
