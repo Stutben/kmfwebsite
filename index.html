@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kreisverbandsmusikfest 2027 – Zimmern unter der Burg</title>
+  <meta name="description" content="Kreisverbandsmusikfest 2027 im Zollernalbkreis – ausgerichtet vom Musikverein Zimmern u.d.B. Programm, Anfahrt und Infos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <a class="brand" href="#top">KMF <span>2027</span></a>
+  <button class="nav-toggle" aria-label="Menü" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  <nav id="nav">
+    <a href="#fest">Das Fest</a>
+    <a href="#programm">Programm</a>
+    <a href="#anfahrt">Anfahrt</a>
+    <a href="#helfer">Mitmachen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Zollernalbkreis · Kreisverbandsmusikfest</p>
+      <h1>Musik. Gemeinschaft.<br><em>Fest 2027.</em></h1>
+      <p class="hero-date"><!-- TODO Datum --><span id="festDateText">Sommer 2027</span> · Zimmern unter der Burg</p>
+      <div class="countdown" id="countdown" data-target="2027-07-02T18:00:00" aria-live="off">
+        <div><b id="cd-d">–</b><small>Tage</small></div>
+        <div><b id="cd-h">–</b><small>Std</small></div>
+        <div><b id="cd-m">–</b><small>Min</small></div>
+        <div><b id="cd-s">–</b><small>Sek</small></div>
+      </div>
+      <a class="btn" href="#programm">Zum Programm</a>
+    </div>
+  </section>
+
+  <section id="fest" class="section">
+    <div class="wrap two-col">
+      <div>
+        <h2>Das Fest</h2>
+        <p>Im Jahr 2027 verwandelt sich Zimmern unter der Burg in das Zentrum der Blasmusik im Zollernalbkreis. Der Musikverein Zimmern u.d.B. lädt als Gastgeber alle Kapellen des Kreisverbands, Freunde und Familien zu einem Fest voller Musik ein.</p>
+        <p>Festzelt, Wertungsspiele, Festumzug und ein Abendprogramm für Jung und Alt – wir freuen uns auf Sie!</p>
+      </div>
+      <ul class="facts">
+        <li><b>20+</b><span>Kapellen</span></li>
+        <li><b>4</b><span>Festtage</span></li>
+        <li><b>1</b><span>großer Festumzug</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="programm" class="section alt">
+    <div class="wrap">
+      <h2>Festprogramm</h2>
+      <p class="note">Vorläufiges Programm – Änderungen vorbehalten.</p>
+      <div class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-day="d1">Freitag</button>
+        <button role="tab" aria-selected="false" data-day="d2">Samstag</button>
+        <button role="tab" aria-selected="false" data-day="d3">Sonntag</button>
+        <button role="tab" aria-selected="false" data-day="d4">Montag</button>
+      </div>
+      <div class="day" id="d1">
+        <article><time>18:00</time><div><h3>Fassanstich &amp; Eröffnung</h3><p>Offizieller Start im Festzelt.</p></div></article>
+        <article><time>20:00</time><div><h3>Party-Abend</h3><p>Live-Band im Festzelt.</p></div></article>
+      </div>
+      <div class="day" id="d2" hidden>
+        <article><time>14:00</time><div><h3>Wertungsspiele</h3><p>Die Kapellen des Kreisverbands stellen sich vor.</p></div></article>
+        <article><time>20:00</time><div><h3>Festabend</h3><p>Musik und Unterhaltung.</p></div></article>
+      </div>
+      <div class="day" id="d3" hidden>
+        <article><time>10:00</time><div><h3>Festgottesdienst &amp; Frühschoppen</h3><p>Mit Blasmusik zum Mittagstisch.</p></div></article>
+        <article><time>14:00</time><div><h3>Festumzug</h3><p>Alle Vereine ziehen durch den Ort.</p></div></article>
+        <article><time>16:00</time><div><h3>Gemeinsames Konzert</h3><p>Die Kapellen im Festzelt.</p></div></article>
+      </div>
+      <div class="day" id="d4" hidden>
+        <article><time>11:00</time><div><h3>Ausklang</h3><p>Gemütlicher Festausklang mit Mittagessen.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="anfahrt" class="section">
+    <div class="wrap two-col">
+      <div>
+        <h2>Anfahrt &amp; Festplatz</h2>
+        <p><!-- TODO Adresse Festplatz -->Festplatz Zimmern unter der Burg<br>72358 Dormettingen/Zimmern u.d.B.</p>
+        <p>Parkplätze und Shuttle-Service werden rechtzeitig vor dem Fest hier bekanntgegeben.</p>
+        <a class="btn ghost" href="https://www.openstreetmap.org/search?query=Zimmern%20unter%20der%20Burg" target="_blank" rel="noopener">Karte öffnen</a>
+      </div>
+      <iframe class="map" title="Karte Zimmern unter der Burg" loading="lazy"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=8.77%2C48.23%2C8.83%2C48.26&amp;layer=mapnik"></iframe>
+    </div>
+  </section>
+
+  <section id="helfer" class="section alt">
+    <div class="wrap cards">
+      <div class="card"><h3>Helfer gesucht</h3><p>Ein Fest dieser Größe lebt vom Mitmachen. Hilf bei Aufbau, Theke oder Küche.</p></div>
+      <div class="card"><h3>Sponsoren &amp; Partner</h3><p>Unterstützen Sie das Fest und präsentieren Sie Ihr Unternehmen.</p></div>
+      <div class="card"><h3>Teilnehmende Kapellen</h3><p>Anmeldung und Infos für Vereine des Kreisverbands folgen.</p></div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="section">
+    <div class="wrap">
+      <h2>Kontakt</h2>
+      <p>Musikverein Zimmern u.d.B.<br><!-- TODO --><a href="mailto:info@example.de">info@example.de</a></p>
+      <p><a href="https://www.mv-zimmern.de/" target="_blank" rel="noopener">www.mv-zimmern.de</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2027 Musikverein Zimmern u.d.B.</span>
+    <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
