@@ -118,3 +118,17 @@ nav a[aria-current="page"] { color: var(--gold); opacity: 1; }
   .cards.three { grid-template-columns: 1fr; }
   .page-head { padding-top: 100px; }
 }
+
+/* logo & flyer content */
+.hero-logo { display: block; width: min(300px, 70vw); height: auto; margin: 0 auto 22px; background: #fff; border-radius: 24px; padding: 10px; box-shadow: 0 12px 40px rgba(0,0,0,.35); }
+.hero h1 { font-size: clamp(2.6rem, 8vw, 5.5rem); }
+.hero { padding-top: 96px; }
+.day-card { display: flex; gap: 26px; align-items: flex-start; background: #fff; border-radius: var(--radius); padding: 22px 26px; margin-bottom: 18px; border-left: 6px solid var(--red); box-shadow: 0 2px 10px rgba(20,33,61,.08); }
+.day-card .date { text-align: center; min-width: 70px; color: var(--navy); }
+.day-card .date b { display: block; font: 800 3.4rem/1 "Barlow Condensed", sans-serif; }
+.day-card .date span { text-transform: uppercase; font-weight: 600; letter-spacing: .08em; font-size: .85rem; }
+.day-card h2 { font-size: 2rem; margin: 0 0 8px; }
+.day-card h2::after { display: none; }
+.day-card ul { margin: 0; padding-left: 20px; }
+.day-card li { margin-bottom: 4px; }
+@media (max-width: 600px) { .day-card { flex-direction: column; gap: 10px; } .day-card .date { text-align: left; } .day-card .date b, .day-card .date span { display: inline; } .day-card .date b { font-size: 2.6rem; margin-right: 6px; } }

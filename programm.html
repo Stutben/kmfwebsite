@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -29,25 +30,47 @@
 
   <section class="section">
     <div class="wrap">
-      <p class="note">Vorläufiges Programm – Änderungen vorbehalten.</p>
-      <div class="tabs" role="tablist">
-        <button role="tab" aria-selected="true" data-day="d1">Fr, 2. Juli</button>
-        <button role="tab" aria-selected="false" data-day="d2">Sa, 3. Juli</button>
-        <button role="tab" aria-selected="false" data-day="d3">So, 4. Juli</button>
-      </div>
-      <div class="day" id="d1">
-        <article><time>18:00</time><div><h3>Fassanstich &amp; Eröffnung</h3><p>Offizieller Start im Festzelt.</p></div></article>
-        <article><time>20:00</time><div><h3>Party-Abend</h3><p>Live-Band im Festzelt.</p></div></article>
-      </div>
-      <div class="day" id="d2" hidden>
-        <article><time>14:00</time><div><h3>Wertungsspiele</h3><p>Die eingeladenen Kapellen stellen sich vor. <a href="wertungsspiele.html">Mehr Infos</a></p></div></article>
-        <article><time>20:00</time><div><h3>Festabend</h3><p>Musik und Unterhaltung.</p></div></article>
-      </div>
-      <div class="day" id="d3" hidden>
-        <article><time>10:00</time><div><h3>Festgottesdienst &amp; Frühschoppen</h3><p>Mit Blasmusik zum Mittagstisch.</p></div></article>
-        <article><time>14:00</time><div><h3>Festumzug</h3><p>Alle Vereine ziehen durch den Ort.</p></div></article>
-        <article><time>16:00</time><div><h3>Gemeinsames Konzert</h3><p>Die Kapellen im Festzelt.</p></div></article>
-      </div>
+      <p class="note">Die genauen Uhrzeiten geben wir rechtzeitig bekannt. Änderungen vorbehalten.</p>
+
+      <article class="day-card" id="freitag">
+        <div class="date"><b>2</b><span>Juli</span></div>
+        <div>
+          <h2>Freitag</h2>
+          <ul>
+            <li>Altkameradentreffen des Kreisverbands Zollernalb</li>
+            <li>Fassanstich mit der Fürstenberg-Brauereikapelle</li>
+            <li>Blasmusik-Abend mit verschiedenen Kapellen</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="day-card" id="samstag">
+        <div class="date"><b>3</b><span>Juli</span></div>
+        <div>
+          <h2>Samstag</h2>
+          <ul>
+            <li><a href="wertungsspiele.html">Wertungsspiele</a> in der Festhalle Zimmern u.d. Burg</li>
+            <li>Kirchenkonzert der Jungen Bläserphilharmonie Zollernalb</li>
+            <li>Musikerparty mit der Band „Partyfürsten“</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="day-card" id="sonntag">
+        <div class="date"><b>4</b><span>Juli</span></div>
+        <div>
+          <h2>Sonntag</h2>
+          <ul>
+            <li><a href="wertungsspiele.html">Wertungsspiele</a> in der Festhalle</li>
+            <li>Frühschoppen mit Gastkapellen</li>
+            <li>Festumzug und Gesamtchor</li>
+            <li>Bekanntgabe der Wertungsspiel-Ergebnisse</li>
+            <li>Unterhaltung durch die „Birabömische Blasmusik“</li>
+          </ul>
+        </div>
+      </article>
+
+      <p><a class="btn ghost" href="assets/flyer.webp" target="_blank" rel="noopener">Flyer ansehen</a></p>
     </div>
   </section>
 </main>
