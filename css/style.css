@@ -164,3 +164,12 @@ h2 { font-size: clamp(1.7rem, 4vw, 2.5rem); }
 .act small { color: #cfe3ec; font-size: .88rem; line-height: 1.4; }
 @media (max-width: 800px) { .lineup-grid { grid-template-columns: 1fr; } .act-logo { width: 170px; height: 170px; } }
 @media (prefers-reduced-motion: reduce) { .act, .act-logo { transition: none; } .act:hover, .act:hover .act-logo { transform: none; } }
+
+/* four acts */
+.lineup-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.act { padding: 24px 14px 22px; }
+.act-logo { width: 160px; height: 160px; }
+.act-logo.icon { color: var(--navy-2); }
+.act-logo.icon svg { width: 58%; height: auto; }
+@media (max-width: 1000px) { .lineup-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .lineup-grid { grid-template-columns: 1fr; } .act-logo { width: 170px; height: 170px; } }
